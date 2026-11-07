@@ -1,0 +1,32 @@
+.gallery {
+    max-width: max-content;
+    object-fit: cover;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 150px 250px 180px ;
+    gap: 20px;
+}
+.img1 {
+    grid-column: span 2;
+}
+.img2 {
+    grid-row: span 2;
+}
+.img3 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.img5 {
+    grid-column: span 2;
+}
+.img8 {
+    grid-column: span 2;
+}
+img {
+    box-shadow: 5px 0px 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
